@@ -48,7 +48,7 @@ function SectionSeven() {
             shadowOffset: 20,
             shadowScale: 0.94,
           }}
-          modules={[Navigation, Pagination, Scrollbar, A11y, EffectCube]}
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={0}
           slidesPerView={nCard}
           navigation
