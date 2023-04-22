@@ -1,0 +1,129 @@
+.sectionFour_container{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 100vh;
+    background-color: #191627;
+    /* background-color: #6e57e0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+.four-inner{
+    /* border: 2px solid white; */
+    width: 60vw;
+    height: 70vh;
+    border-radius: 25px;
+    background-color: hsl(250deg 30% 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four-one{
+    /* border: 2px solid white; */
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+  
+    justify-content: center;
+}
+.four-one-inner{
+    /* border: 2px solid white; */
+    width: 73%;
+    margin-top: 3vh;
+}
+.four-one h2{
+    color: white;
+    width: 80%;
+    font-size:30px;
+}
+.four-one p{
+    font-size: 20px ;
+    margin-bottom: 4vh;
+    color: #BCBAC4;
+}
+
+.four-one button {
+    color: white;
+    border-radius: 7px;
+    border: none;
+    height: 6vh;
+    width: 16vw;
+    background-color: #6e57e0;
+    font-weight: 600;
+}
+.four-one button:hover{
+    background-color: #5744b7;
+}
+
+
+.four-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid white; */
+    width: 50%;
+    height: 80%;
+}
+.four-image-holder{
+    width: 90%;
+    height: 90%;
+    /* border: 2px solid white; */
+}
+.four-image-holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+@media(max-width:500px){
+    .sectionFour_container{
+        flex-direction: column;
+        height: 94vh;
+    }
+    .four-inner{
+        flex-direction: column;
+        height: 76%;
+        width: 80%;
+    }
+    .four-one{
+        width: 80%;
+    }
+
+    .four-one h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .four-one-inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 80%;
+    }
+    .four-one p{
+        font-size: 15px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .four-image-holder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .four-image-holder img{
+        width: 90%;
+        height: 90%;
+    }
+    .four-one button{
+        height: 5vh;
+    width: 30vw;
+    }
+    .four-two{
+        width: 80%;
+    }
+
+}
